@@ -1,0 +1,45 @@
+# Alacritty configuration file
+
+[window]
+startup_mode = "maximized"
+decorations = "none"
+opacity = 0.85
+padding = { x = 10, y = 10 }
+
+[shell]
+program = "/usr/bin/fish"
+
+[font]
+normal = { family = "BlexMono Nerd Font", style = "Light" }
+
+[colors]
+[colors.primary]
+background = '#282828'
+foreground = '#d4be98'
+
+[colors.normal]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
+[colors.bright]
+black   = '#3c3836'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 0
+
